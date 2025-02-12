@@ -1,0 +1,225 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="rtl" lang="ar">
+<head>
+    <title>Fasel+</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.faselplus.com/wp-content/themes/Faselplus/Assets/imgs/icons/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@300;500;700&family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://kit-pro.fontawesome.com/releases/v6.2.0/css/pro.min.css">
+    <link rel="stylesheet" type="text/css" href="wp-content/themes/Faselplus/Assets/css/bootstrap-rtl.css">
+    <link rel="stylesheet" type="text/css" href="wp-content/themes/Faselplus/Assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://www.faselplus.com/wp-content/themes/Faselplus/Assets/css/nice-select.css">
+    <link rel="stylesheet" type="text/css" href="https://www.faselplus.com/wp-content/themes/Faselplus/Assets/css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="https://www.faselplus.com/wp-content/themes/Faselplus/Assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="https://www.faselplus.com/wp-content/themes/Faselplus/Assets/css/style.css?v=3.0">
+    <link rel="stylesheet" type="text/css" href="wp-content/themes/Faselplus/Assets/css/style-responsive.css">
+    <script type="text/javascript" src="https://www.faselplus.com/wp-content/themes/Faselplus/Assets/js/jquery-3.6.1.min.js"></script>
+    <script type="text/javascript" src="https://www.faselplus.com/wp-content/themes/Faselplus/Assets/js/jquery.cookie.min.js"></script>
+    <script type="text/javascript" src="https://www.faselplus.com/wp-content/themes/Faselplus/Assets/js/jquery.nice-select.min.js"></script>
+    <script type="text/javascript" src="https://www.faselplus.com/wp-content/themes/Faselplus/Assets/js/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="https://www.faselplus.com/wp-content/themes/Faselplus/Assets/js/owl.carousel.js"></script>
+    <script type="text/javascript" src="https://www.faselplus.com/wp-content/themes/Faselplus/Assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://www.faselplus.com/wp-content/themes/Faselplus/Assets/js/app.js?v=8.9"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top" id="nav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://www.faselplus.com/"> <img src="wp-content/themes/Faselplus/Assets/imgs/icons/logo.svg" alt="logo"> </a>
+        </div>
+    </nav>
+    <div class="register-log-area">
+        <div class="container-fluid">
+            <div class="row justify-content-center top-sec-padd">
+                <div class="col-md-4 col-xs-12">
+                    <div class="reg-log-form">
+                        <form class="main-form row signup-form" novalidate>
+                            <fieldset class="step">
+                                <div class="form-top">
+                                    <div class="reg-log-form-title">
+                                        <h3>الخطوة 1 / 4</h3>
+                                        <p>البيانات الشخصية:</p>
+                                    </div>
+                                </div>
+                                <div class="form-bottom">
+                                    <div class="form-group col-12">
+                                        <label> الأسم الأول </label>
+                                        <input class="form-control" type="text" name="firstname" minlength="3" placeholder="الأسم الأول" pattern="[a-zA-Zء-ي]{1,15}" autocomplete="off" required>
+                                        <div class="invalid-feedback"> لا يقل عن 3 أحرف ولا يحتوي علي مسافة!</div>
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <label> الأسم الأخير </label>
+                                        <input class="form-control" type="text" name="lastname" minlength="3" placeholder="الأسم الأخير" pattern="[a-zA-Zء-ي]{1,15}" autocomplete="off" required>
+                                        <div class="invalid-feedback"> لا يقل عن 3 أحرف ولا يحتوي علي مسافة!</div>
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <label> رقم الجوال (اختياري) </label>
+                                        <input class="form-control" type="number" name="phone" placeholder="xxx xxx xxx">
+                                    </div>
+                                    <div class="form-group buttons">
+                                        <button class="btn btn-next main-btn primary-btn" type="button">التالي</button>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <fieldset class="step">
+                                <div class="form-top">
+                                    <div class="reg-log-form-title">
+                                        <h3>الخطوة 2 / 4</h3>
+                                        <p>إعداد الحساب:</p>
+                                    </div>
+                                </div>
+                                <div class="form-bottom">
+                                    <div class="form-group col-12 icon-style">
+                                        <label> البريد الإلكتروني </label>
+                                        <div class="icon-input">
+                                            <img src="https://www.faselplus.com/wp-content/themes/Faselplus/Assets/imgs/icons/user.svg" class="icon-style-chi">
+                                            <input class="form-control" type="email" name="email" placeholder="example@example.com" pattern="^[a-zA-Z0-9_\-.]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-.]+$" autocomplete="off" required>
+                                            <div class="invalid-feedback">من فضلك ادخل بريد إلكتروني صحيح!</div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-12 icon-style">
+                                        <label> كلمة المرور </label>
+                                        <div class="icon-input">
+                                            <img src="https://www.faselplus.com/wp-content/themes/Faselplus/Assets/imgs/icons/key_pass.svg" class="icon-style-chi">
+                                            <input class="form-control" type="password" name="password" minlength="8" placeholder="***********" autocomplete="off" required>
+                                            <div class="input-group-append toggle-password">
+                                                <img src="https://www.faselplus.com/wp-content/themes/Faselplus/Assets/imgs/icons/eye_hide.svg" class="ps-btn ps-btn-hide">
+                                                <img src="https://www.faselplus.com/wp-content/themes/Faselplus/Assets/imgs/icons/eye_show.svg" class="ps-btn ps-btn-show">
+                                            </div>
+                                            <div class="invalid-feedback">كلمة المرور ضعيفة جداً!</div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-12 icon-style">
+                                        <label> رمز الرقابة الأبوية
+                                            <div class="infotext"><i class="fa-regular fa-circle-info"></i>
+                                                <div class="left">
+                                                    <p>يمنع رمز الرقابة الأبوية الأطفال من التبديل بين المستخدمين.</p>
+                                                    <i></i>
+                                                </div>
+                                            </div>
+
+                                        </label>
+                                        <div class="icon-input">
+                                            <img src="https://www.faselplus.com/wp-content/themes/Faselplus/Assets/imgs/icons/lock_icon.svg" class="icon-style-chi">
+                                            <input class="form-control" type="password" id="pin" name="pin" placeholder="xxxx" pattern="[0-9]*" inputmode="numeric" maxlength="4">
+                                            <div class="input-group-append toggle-password">
+                                                <img src="https://www.faselplus.com/wp-content/themes/Faselplus/Assets/imgs/icons/eye_hide.svg" class="ps-btn ps-btn-hide">
+                                                <img src="https://www.faselplus.com/wp-content/themes/Faselplus/Assets/imgs/icons/eye_show.svg" class="ps-btn ps-btn-show">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group buttons">
+                                        <button class="btn btn-previous main-btn primary-btn" type="button">السابق</button>
+                                        <button class="btn btn-next main-btn primary-btn" type="button">التالي</button>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <fieldset class="step">
+                                <div class="form-top">
+                                    <div class="reg-log-form-title">
+                                        <h3>الخطوة 3 / 4</h3>
+                                        <p>قم باختيار المتجر المناسب لك و شراء كود الاشتراك:</p>
+                                    </div>
+                                </div>
+                                <div class="form-bottom">
+                                    <div class="form-group col-12 icon-style">
+                                        <div class="reg-stores">
+                                            <div class="subPromo kcard mt-4" style="border:0;">
+                                                <div>
+                                                    <div class="row justify-content-center g-3">
+                                                        <div class="col-auto">
+                                                            <div style="padding:10px;border-radius:8px;background:rgb(255 221 109 / 20%);border:1px solid #ffd13c;">
+                                                                <a target="_blank" href="https://tec-cards.com/categories/1263597/faselplus-cards" class="d-block" style="height: 80px;"><img src="https://www.faselplus.com/teccards01_logo.png" alt="" style="height:100%;width:auto;"></a>
+                                                            </div>
+                                                            
+                                                        </div>
+                                                        <div class="col-auto">
+                                                            <div style="padding:10px;border-radius:8px;background:rgb(255 221 109 / 20%);border:1px solid #ffd13c;">
+                                                                <a target="_blank" href="https://keycardsa.com/Category/%D9%81%D8%A7%D8%B5%D9%84-%D8%A8%D9%84%D8%B3" class="d-block" style="height: 80px;"><img src="https://www.faselplus.com/keycard_logo.png" alt="" style="height:100%;width:auto;"></a>
+                                                            </div>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--<a target="_blank" href="https://keycardsa.com/Category/فاصل-بلس">
+                                                    <div class="row justify-content-center">
+                                                        <img src="https://www.faselplus.com/wp-content/themes/Faselplus/Assets/imgs/icons/kcard.jpg?v=1.0">
+                                                    </div>
+                                                    <div class="row justify-content-center">
+                                                        <span>شراء كود جديد</span>
+                                                    </div>
+                                                </a>-->
+                                            </div>
+										 <div class="subPromo fasel mt-4" style="display:none;">
+                                                <a target="_blank" href="https://www.youtube.com/embed/1y_OZ1k7zjs">
+                                                    <div class="row justify-content-center">
+                                                        <img src="https://www.faselplus.com/wp-content/themes/Faselplus/Assets/imgs/icons/fasel.jpg?v=1.0">
+                                                    </div>
+                                                    <div class="row justify-content-center">
+                                                        <span>شرح نقل العضوية</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group buttons">
+                                        <button class="btn btn-previous main-btn primary-btn" type="button">السابق</button>
+                                        <button class="btn btn-next main-btn primary-btn" type="button">التالي</button>
+                                    </div>
+                                   <!--<div class="hav-acc">
+                                        <h5>لديك كود اشتراك او رمز نقل عضوية؟ اضغط التالي. </h5>
+									   <hr style="background: #8a8a8a;">
+                                       <h5>لديك كود فاصل اعلاني لم يتم تفعيله بعد قم بتبدليه 
+										   <a href="https://www.faselplus.com/transfer-keys" target="_blank" style="color: #c89900;margin-right: 0;">
+										   <b>هنا</b>
+										   </a>
+									   </h5>
+                                    </div> -->
+                                </div>
+                            </fieldset>
+                            <fieldset class="step">
+                                <div class="form-top">
+                                    <div class="reg-log-form-title">
+                                        <h3>الخطوة 4 / 4</h3>
+                                        <p>ادخل كود الاشتراك للاستمتاع بتجربة المشاهدة:</p>
+                                    </div>
+                                </div>
+                                <div class="form-bottom">
+                                    <div class="form-group col-12 col-xs-12">
+                                        <label> كود الاشتراك او رمز نقل عضوية </label>
+                                        <input class="form-control" type="text" name="license" minlength="20"  autocomplete="off" required>
+                                    </div>
+                                    <div class="form-group col-12 col-xs-12">
+                                        <div class="g-recaptcha" data-sitekey="6LcDqYAjAAAAAP4q59B9fH1CnzEdC_Tt0GylEOaQ"></div>
+										<div class="invalid-feedback recaptcha">reCAPTCHA غير صحيحة</div>
+                                    </div>
+                                    <div class="form-group col-12 col-xs-12 form-btn">
+                                        <button class="btn main-btn primary-btn subscribe"> الاشتراك الان </button>
+                                        <div class="invalid-feedback danger">هناك مشكلة في تسجيل حسابك!</div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <fieldset class="done">
+                                <div class="form-group col-12 col-xs-12">
+                                    <div class="comp-log-form-title">
+                                        <div class="dn-img">
+                                            <img src="https://www.faselplus.com/wp-content/themes/Faselplus/Assets/imgs/icons/done_icon.png">
+                                        </div>
+                                        <h3> تم الإشتراك بنجاح </h3>
+                                        <h6> تم الإشتراك بنجاح في فاصل بلس، استمتع بتجربة مشاهدة رائعة. </h6>
+                                    </div>
+                                    <div class="form-group col-12 form-btn">
+                                        <a href="signin.html" class="btn main-btn primary-btn"> انطلق الان </a>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
